@@ -32,9 +32,9 @@
             //                    | GUI | LWR | SPC |               | ENT | RSE  | ALT |
 
             bindings = <
-&none  &kp Q             &kp W               &kp E           &kp R           &kp T      &none  &none  &kp Y        &kp U            &kp I           &kp O               &kp P                &kp LEFT_BRACKET
-&none  &mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_GUI F  &kp G      &none  &none  &kp H        &mt LEFT_GUI J   &mt LEFT_ALT K  &mt LEFT_CONTROL L  &mt LEFT_SHIFT SEMI  &kp SINGLE_QUOTE
-&none  &kp Z             &kp X               &kp C           &kp V           &kp B                    &kp N        &kp M            &kp COMMA       &kp DOT             &kp MINUS            &kp BACKSLASH
+&none  &kp Q             &kp W               &kp E           &kp R           &kp T      &none  &none  &kp CH_Z        &kp U            &kp I           &kp O               &kp P                &kp CH_UDIA
+&none  &mt LEFT_SHIFT A  &mt LEFT_CONTROL S  &mt LEFT_ALT D  &mt LEFT_GUI F  &kp G      &none  &none  &kp H        &mt LEFT_GUI J   &mt LEFT_ALT K  &mt LEFT_CONTROL L  &mt LEFT_SHIFT CH_ODIA  &kp CH_ADIA
+&none  &kp CH_Y             &kp X               &kp C           &kp V           &kp B                    &kp N        &kp M            &kp COMMA       &kp DOT             &kp CH_MINS            &kp CH_DLR
                                              &lt 3 ESC       &lt 1 SPACE     &lt 2 TAB                &lt 5 ENTER  &lt 4 BACKSPACE  &lt 6 DELETE
             >;
         };
@@ -77,9 +77,9 @@
 
         sym {
             bindings = <
-&none  &none  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS   &kp RIGHT_BRACKET  &none  &none  &none   &none         &none         &none      &none           &none
-&none  &none  &kp DOLLAR       &kp PERCENT   &kp CARET              &kp EQUAL          &none  &none  &none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none
-&none  &none  &kp EXCLAMATION  &kp AT_SIGN   &kp POUND              &kp APOSTROPHE                   &none   &none         &none         &none      &none           &none
+&none  &none  &kp AMPERSAND    &kp ASTERISK  &kp LEFT_PARENTHESIS   &kp CH_DIAE  &none  &none  &none   &none         &none         &none      &none           &none
+&none  &none  &kp DOLLAR       &kp PERCENT   &kp CARET              &kp CH_CIRC          &none  &none  &none   &kp LEFT_GUI  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &none
+&none  &kp CH_LABK  &kp EXCLAMATION  &kp AT_SIGN   &kp POUND              &kp CH_QUOT                   &none   &none         &none         &none      &none           &none
                                &none         &kp RIGHT_PARENTHESIS  &none                            &trans  &none         &none
             >;
         };
